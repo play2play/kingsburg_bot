@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'bundler'
+Bundler.setup
+
+require './lib/kingsburg_bot'
+
+KingsburgBot.start_client
